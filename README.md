@@ -2,6 +2,9 @@
 
 Github project link: https://github.com/cdils/in-the-beginning
 
+## Notes 
+
+This is a test note!
 
 ## Installation Instructions
 
