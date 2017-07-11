@@ -1,0 +1,19 @@
+{
+  "name": "in-the-beginning",
+  "version": "1.0.0",
+  "authors": [
+    "Carrie Dils"
+  ],
+  "description": "Genesis child theme",
+  "license": "GPL-2.0+",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2"
+  }
+}

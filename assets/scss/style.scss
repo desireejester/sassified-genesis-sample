@@ -1,0 +1,139 @@
+/* # Genesis Framework
+Theme Name: In the Beginning
+Theme URI: https://github.com/cdils/in-the-beginning
+Description: This is a Sass starter theme created for the Genesis Framework.
+Author: Carrie Dls
+Author URI: http://www.carriedils.com/
+Template: genesis
+Tags: black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: in-the-beginning
+*/
+
+/* # Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+- Structure and Layout
+	- Site Containers
+	- Column Widths and Positions
+	- Column Classes
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Jetpack
+- Site Header
+	- Title Area
+	- Widget Area
+- Site Navigation
+	- Header Navigation
+	- Primary Navigation
+	- Secondary Navigation
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+	- Comments
+- Sidebars
+- Footer Widgets
+- Site Footer
+- Media Queries
+	- Retina Display
+	- Min-width: 1024px
+	- Min-width: 1140px
+*/
+
+/* @noflip */
+body.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Import Bourbon, Neat, and Bitters */
+@import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat";
+@import "base/base";
+
+/* Import Partials */
+@import "partials/variables";
+@import "partials/mixins";
+
+/* # HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/reset";
+
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "partials/defaults";
+
+
+/* # Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "partials/structure-layout";
+
+
+/* # Common Classes
+---------------------------------------------------------------------------------------------------- */
+@import "partials/common-classes";
+
+
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/widgets";
+
+
+/* # Plugins
+---------------------------------------------------------------------------------------------------- */
+@import "partials/plugins";
+
+
+/* # Site Header
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-header";
+
+
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-navigation";
+
+
+/* # Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "partials/content-area";
+
+
+/* # Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "partials/sidebars";
+
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/footer-widgets";
+
+
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-footer";
+
+
+/* # Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "partials/media-queries";
