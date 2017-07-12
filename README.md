@@ -4,7 +4,7 @@ Github project link: https://github.com/cdils/in-the-beginning
 
 ## Notes 
 
-This is a test note!
+This is a test note! I need this to work before I lose my mind!
 
 ## Installation Instructions
 
